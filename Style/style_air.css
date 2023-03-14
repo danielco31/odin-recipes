@@ -1,0 +1,86 @@
+/* CSS file for Air Fryer Tacos de Papa recipe */
+
+/* Set default font styles */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    }
+    
+    /* Style for recipe header */
+    header {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+    }
+    
+    /* Style for recipe title */
+    h1 {
+    margin: 0;
+    }
+    
+    /* Style for recipe image */
+    #recipe-image img {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    }
+    
+    /* Style for recipe details section */
+    #recipe-details {
+    margin: 20px;
+    }
+    
+    /* Style for recipe details headings */
+    h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    }
+    
+    /* Style for recipe details list */
+    ul, ol {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    }
+    
+    /* Style for recipe details list items */
+    li {
+    margin: 5px 0;
+    }
+    
+    /* Style for recipe steps */
+    ol {
+    counter-reset: step-counter;
+    }
+    
+    ol li {
+    counter-increment: step-counter;
+    margin: 10px 0;
+    position: relative;
+    }
+    
+    ol li:before {
+    content: counter(step-counter);
+    display: inline-block;
+    background-color: #f2f2f2;
+    color: #666;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 1.5em;
+    height: 1.5em;
+    border-radius: 50%;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 1.5em;
+    }
+    
+    /* Style for links */
+    a {
+    color: #007bff;
+    text-decoration: none;
+    }
+    
+    a:hover {
+    text-decoration: underline;
+    }

@@ -1,0 +1,105 @@
+/* Definir um tamanho de fonte padrão e tamanho de fonte para outros elementos em relação a isso */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+  }
+  
+  /* Adicionar um esquema de cores consistente em todo o site */
+  header {
+    background-color: #1abc9c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin: 0;
+  }
+  
+  .recipe-image {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .recipe-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .recipe-description {
+    margin: 20px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+  }
+  
+  .recipe-description h2 {
+    margin-top: 0;
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    color: #444;
+  }
+  
+  .recipe-description p {
+    font-size: 18px;
+    line-height: 1.5;
+    text-align: justify;
+    color: #666;
+  }
+  
+  .recipe-ingredients {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .recipe-ingredients h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .recipe-ingredients ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .recipe-ingredients li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .recipe-ingredients li:before {
+    content: '•';
+    margin-right: 10px;
+    color: #5dbcd2;
+  }
+  
+  .recipe-steps {
+    background-color: #f5f5f5;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .recipe-steps h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
